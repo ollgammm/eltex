@@ -17,6 +17,7 @@ export const LOCALE_NAMES: Record<Locale, string> = {
 export const DEFAULT_LOCALE: Locale = 'ru';
 
 export type NavigationLink = { label: string };
+
 export type HeroItem = { title: string; text: string; img: string };
 export type AboutItem = { title: string; text: string; icon: string };
 export type TextPart = { text: string; accent: boolean };
